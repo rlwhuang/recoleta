@@ -1,0 +1,15 @@
+ver	0	7
+get	.
+seg	all	snak0000.aas	0	15479
+seg	all	snak0001.aas	15479	16200
+seg	all	snak0002.aas	31679	13580
+get	XTRAS
+put	XTRAS
+bin	win32	"BMPVIEW.X32"	"BMPVIEW.X32"	recycle,length=46080
+bin	win32	"VIEWSVC.X32"	"VIEWSVC.X32"	recycle,length=93696
+bin	win32	"MIX32.X32"	"MIX32.X32"	recycle,length=119296
+bin	win32	"WAVREAD.X32"	"WAVREAD.X32"	recycle,length=56320
+bin	win32	"MIXVIEW.X32"	"MIXVIEW.X32"	recycle,length=48128
+# HTML_PARAMS: WIDTH=320 HEIGHT=240 BGCOLOR=FFFFFF
+opt	all	BypassSecurityDialog=FALSE
+opt	all	UniqueID=906812
